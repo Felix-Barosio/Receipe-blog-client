@@ -23,6 +23,8 @@ function App() {
     <div className="container-fluid">
       <NavBar />
       <Routes>
+        <Route exact path='/' element={<Home />}></Route>
+        <Route exact path='/post' element={<Post posts={post} loadPosts={loadPosts} />} ></Route>
       </Routes>
     </div>
   );
