@@ -4,11 +4,9 @@
 body {
   margin: 10px;
   font-family: 'Space Grotesk', sans-serif;
-  background-color: #f1f1f1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 /* nav bar section */
 .header {
@@ -18,10 +16,10 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
   z-index: 999;
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   margin-bottom: 0.1rem;
 }
 
@@ -118,18 +116,95 @@ body {
   transition: 250ms;
 }
 
+/* posting page */
+.post__image_url img {
+  width: 100%;
+}
+
+.post__wrapper {
+  border-radius: 26px;
+  background: #e0e0e0;
+  border-radius: 10px 10px 15px 15px;
+  background: #268da3;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 30px;
+  margin-bottom: 0.4rem;
+}
+
+.story__desc {
+  padding: 15px 5px 20px 10px;
+  margin-bottom: -15px;
+  justify-content: center;
+}
+
+.action__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.post__edit {
+  color: #034728;
+  margin-right: 20px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.post__delete {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.733);
+}
+
+::placeholder {
+  font-size: 13px;
+}
+
+.form__label {
+  font-weight: 500;
+}
+
+.blog__search input {
+  margin-top: 0.1rem;
+  border-radius: 9px;
+  padding-left: 10px;
+  border: 1px solid #362736;
+}
+
+.blog__search input:focus {
+  outline: none;
+  border: 1px solid #ffdaff;
+}
+.food__head{
+  font-size: 1.5rem;
+  font-family: 'Oleo Script', cursive;
+  font-weight: 100;
+}
+.food__body{
+  font-size: 1.2rem;
+  font-family: 'Oleo Script', cursive;
+}
+.post__receipe{
+  font-size: 1.3rem;
+  width: 45%;
+}
+
 
 /* home section */
 .home-container {
   background: url('https://media.gettyimages.com/vectors/overhead-angle-of-a-person-using-apps-online-for-cooking-vector-id641803276?s=2048x2048') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
+  background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  margin-bottom: 0.4rem;
 }
 
 .home-container > h1 {
