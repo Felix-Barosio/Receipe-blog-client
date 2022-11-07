@@ -252,7 +252,7 @@ const Post = ({ posts, loadPosts }) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicPostTitle">
+                        <Form.Group className="mb-3" controlId="formBasicOrigin">
                             <Form.Label className="form__label">Origin</Form.Label>
                             <Form.Control
                                 type="text"
@@ -262,7 +262,7 @@ const Post = ({ posts, loadPosts }) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicPostTitle">
+                        <Form.Group className="mb-3" controlId="formBasicCategory">
                             <Form.Label className="form__label">Category</Form.Label>
                             <Form.Control
                                 type="text"
@@ -272,7 +272,7 @@ const Post = ({ posts, loadPosts }) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicPostTitle">
+                        <Form.Group className="mb-3" controlId="formBasicIngredients">
                             <Form.Label className="form__label">Ingredients</Form.Label>
                             <Form.Control
                                 as="textarea"
@@ -283,7 +283,7 @@ const Post = ({ posts, loadPosts }) => {
                                 onChange={handleChange}
                             />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicimage_urlLink">
+                        <Form.Group className="mb-3" controlId="formBasicYoutube_Video">
                             <Form.Label className="form__label">Youtube Video</Form.Label>
                             <Form.Control
                                 type="text"
