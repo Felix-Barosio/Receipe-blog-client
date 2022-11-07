@@ -5,6 +5,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import Contact from './components/Contact';
 
 
 const api = "http://localhost:9292/receipes"
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />}></Route>
         <Route exact path='/post' element={<Post posts={post} loadPosts={loadPosts} />} ></Route>
+        <Route exact path='/contact' element={<Contact />}></Route>
       </Routes>
     </div>
   );
