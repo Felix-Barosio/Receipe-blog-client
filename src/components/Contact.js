@@ -1,8 +1,15 @@
 import React from 'react'
+import ContactData from './ContactData'
 
 function Contact() {
     return (
-        <div>Contact</div>
+        <div>
+            <div className='contact-us'>
+                <div className='contact-form'>
+                    <ContactData />
+                </div>
+            </div>
+        </div>
     )
 }
 
