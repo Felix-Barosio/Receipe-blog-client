@@ -6,7 +6,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import { Link } from "react-router-dom";
 
-const api = "http://localhost:9292/receipes";
+const api = "http://localhost:3000/receipes";
 
 // default states
 const initialState = {
