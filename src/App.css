@@ -234,3 +234,36 @@ body {
 .fa-play-circle {
   margin-left: 4px;
 }
+
+/* contact page */
+.contact-us  {
+  width: 85%;
+  height: 100vh;
+  margin: 4rem auto 0 auto;
+  display: flex;
+}
+
+.contact-message {
+  width: 50%;
+  padding: 2em;
+  margin: 4rem auto 0 auto;
+}
+
+.contact-message h1 {
+  margin-bottom: 0.5em;
+  font-family: 'Oleo Script', cursive;
+  font-weight: 200;
+  font-size: 3.4rem;
+}
+
+.contact-message p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.contact-form {
+  width: 60%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
