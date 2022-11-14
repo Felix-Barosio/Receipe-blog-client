@@ -54,7 +54,7 @@ const Post = ({ posts, loadPosts }) => {
         } else {
             if (!editMode) {
                 axios.post(api, state);
-                toast.success("Receipe Added Succesfully!");
+                toast.success("Recipe Added Succesfully!");
                 // restore the form input to default with no data
                 setState({
                     meal_name: "",
@@ -133,7 +133,7 @@ const Post = ({ posts, loadPosts }) => {
             <div className="row d-flex align-items-center">
                 <div className="col-md-8">
                     <Button variant="secondary" className="post__receipe" onClick={handleShow}>
-                        Post Receipe.
+                        Post Recipe.
                     </Button>
                 </div>
                 <div className="col-md-4">
@@ -233,7 +233,7 @@ const Post = ({ posts, loadPosts }) => {
                 <Modal.Body>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group className="mb-3" controlId="formBasicPostTitle">
-                            <Form.Label className="form__label">Receipe Title</Form.Label>
+                            <Form.Label className="form__label">Recipe Title</Form.Label>
                             <Form.Control
                                 type="text"
                                 placeholder="Enter meal_name"
