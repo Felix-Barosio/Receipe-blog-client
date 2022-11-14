@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <div className='header'>
             <div className='navbar-container'>
-                <Link className="navbar-logo" to="/">Receipe Blog</Link>
+                <Link className="navbar-logo" to="/">Recipe Blog</Link>
                 <div className='nav-menu'>
                     <Link className='nav-links' to="/">Home</Link>
                     <Link className='nav-links' to="/post">Blogs</Link>
